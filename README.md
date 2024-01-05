@@ -55,14 +55,14 @@ sudo dpkg -i docker-ce-cli_20.10.133-0ubuntu-jammy_amd64.deb
 sudo dpkg -r docker-ce-cli
 ```
 
-5. Выложить [историю команд](https://github.com/) в терминале ubuntu
+5. Выложить [историю команд](https://github.com/Shchelokoff/FCW_Specialization/blob/main/Ubuntu_sripts.txt) в терминале ubuntu
 
-6. Нарисовать [диаграмму](https://github.com/), в которой есть класс родительский класс, домашние
+6. Нарисовать [диаграмму](https://github.com/Shchelokoff/FCW_Specialization/blob/main/Diagramm_extends.png), в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
 
-7. В подключенном MySQL репозитории создать [базу данных](https://github.com/)“Друзья человека”
+7. В подключенном MySQL репозитории создать [базу данных](https://github.com/Shchelokoff/FCW_Specialization/blob/main/Database.sql)“Друзья человека”
 ```sql
 CREATE DATABASE Human_friends;
 ```
@@ -270,9 +270,9 @@ FROM hamsters hm
 LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
-13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/).
+13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/Shchelokoff/FCW_Specialization/tree/main/src/model).
 
-14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/).
+14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/Shchelokoff/FCW_Specialization/tree/main/src).
 В программе должен быть реализован следующий функционал:    
 14.1 Завести новое животное    
 14.2 определять животное в правильный класс    
